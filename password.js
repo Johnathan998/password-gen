@@ -12,3 +12,14 @@ function generate(length = 12) {
 
     return password;
 }
+window.onload = function () {
+    var generateButton = document.querySelector('#generate');
+    generateButton.addEventListener('click', function () {
+        document.querySelector('#password').value = generate();
+    });
+}
+
+document.getElementById("password").style.width = "100%";
+document.getElementById("password").style.border = "dotted";
+document.getElementsById("passwordBox").style.backgroundColor = "blue";
+document.getElementsByTagName("html").style.borderLeftWidth = "25%"
