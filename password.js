@@ -21,5 +21,11 @@ window.onload = function () {
 
 document.getElementById("password").style.width = "100%";
 document.getElementById("password").style.border = "dotted";
-document.getElementsById("passwordBox").style.backgroundColor = "blue";
-document.getElementsByTagName("html").style.borderLeftWidth = "25%"
+document.getElementById("password").style.borderColor = "blue";
+document.getElementById("password").style.fontSize = "40px";
+document.getElementById("box").style.paddingLeft = "50px";
+document.getElementById("box").style.paddingRight = "50px";
+document.getElementById("generate").style.backgroundColor = "teal";
+document.getElementById("generate").style.fontSize = "30px";
+document.getElementById("copy").style.background = "orange";
+document.getElementById("copy").style.fontSize = "30px";
